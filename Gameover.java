@@ -9,7 +9,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Gameover extends World
 {
     //GreenfootSound myMusic = new GreenfootSound("trollsong.mp3");
-
+    //public int score =0;
+     
+    
     /**
      * Constructor for objects of class Gameover.
      * 
@@ -17,7 +19,7 @@ public class Gameover extends World
     public Gameover()
     {    
 
-        super(1280, 720, 1); 
+        super(1180, 700, 1); 
 
     }
 
@@ -26,9 +28,10 @@ public class Gameover extends World
         Display.myMusic.stop(); 
         if(Greenfoot.isKeyDown("R"))
             Greenfoot.setWorld(new Display());
-
+       
+        showText("Your Score is = "+ Display.score ,1000,600);
     }
 
-    //
 
+    //
 }

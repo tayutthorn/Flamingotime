@@ -65,9 +65,12 @@ public class flamin extends Actor
         animateOnMove();
         Actor goldenegg = getOneIntersectingObject(goldenegg.class);
         Display dp = (Display)getWorld();
+        
         if(goldenegg!=null){
             dp.removeObject(goldenegg);
             dp.increaseScore();
+            
+            
             Greenfoot.playSound("Collecteditem.mp3");
             //reset();
         }

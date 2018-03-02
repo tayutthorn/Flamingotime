@@ -14,13 +14,11 @@ public class goldenegg extends Actor
      */
     public void act() 
     {
-        spawn();
-        // Add your action code here.
-    }    
+        
+}
 
-    public void spawn()
-    {
-        if(Greenfoot.getRandomNumber(300) == 1)
-            getWorld().addObject(new goldenegg(),Greenfoot.getRandomNumber(800),Greenfoot.getRandomNumber(800));
-    }
+    //public void spawn()
+        //if(Greenfoot.getRandomNumber(300) == 1)
+           // getWorld().addObject(new goldenegg(),Greenfoot.getRandomNumber(800),Greenfoot.getRandomNumber(800));
+    //}
 }
