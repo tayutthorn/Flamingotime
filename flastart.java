@@ -15,22 +15,26 @@ public class flastart extends Actor
      {
          for(int i=1;i<images.length;i++){
              images[i] = new GreenfootImage("Flamingo"+i+".png");
-            }
-            setImage(images[1]);
         }
+        setImage(images[1]);
+    }
     /**
      * Act - do whatever the flastart wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        if(fla==0)fla=10;
-        if(fla==1){
+        if(fla==0)
+            fla=10;
+        if(fla==1)
+        {
             setImage(images[num]);
             num++;
-            if(num>=images.length)num=0;
+            if(num>=images.length)
+                num=0;
             setLocation(getX()+deltax,getY());
         }
-        if(fla>0)fla--;
+        if(fla>0)
+            fla--;
     }    
 }

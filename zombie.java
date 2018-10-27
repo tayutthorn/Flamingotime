@@ -16,7 +16,8 @@ public class zombie extends Actor
     int xPos;
     int yPos;
     public void addedToWorld(World w)
-    { xPos = getX();
+    { 
+        xPos = getX();
         yPos = getY();
     }
 
@@ -64,9 +65,6 @@ public class zombie extends Actor
         }
         xPos = getX();
         yPos = getY();   
-    }
-    {
-
     }
 }
       

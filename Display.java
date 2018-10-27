@@ -36,10 +36,6 @@ public class Display extends World
         addObject(zb3,900,600);
         zombie zb4 = new zombie();
         addObject(zb4,900,100);
-        goldenegg gde = new goldenegg();
-        goldenegg gde2 = new goldenegg();
-        goldenegg gde3 = new goldenegg();
-        goldenegg gde4 = new goldenegg();
         //if(Greenfoot.getRandomNumber(10) == 1)
 
         //addObject(gde,Greenfoot.getRandomNumber(getWidth()),Greenfoot.getRandomNumber(getHeight()));

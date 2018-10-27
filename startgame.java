@@ -22,7 +22,7 @@ public class startgame extends World
         
     }
     private void prepare()
-  {
+    {
       //startbutton sbt = new startbutton();
       //addObject(sbt,512,100);
       zombiestart zb = new zombiestart();
@@ -30,13 +30,11 @@ public class startgame extends World
       flastart fs = new flastart();
       addObject(fs,200,400);
       
-}
+    }
      public void act()
-   {  
+    {  
      if(Greenfoot.isKeyDown("Enter"))
      Greenfoot.setWorld(new Display());
      
-     
-    
     }
 }
